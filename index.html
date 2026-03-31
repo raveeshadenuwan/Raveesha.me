@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raveesha Denuwan — Cyber Security</title>
+  <meta name="description" content="Portfolio of Raveesha Denuwan — HND Computing student specialising in Cyber Security at CINEC Campus, Sri Lanka." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="loading">
+
+  <!-- PAGE LOADER -->
+  <div id="page-loader">
+    <div class="loader-grid"></div>
+    <div class="loader-core">
+      <div class="loader-ring"></div>
+      <div class="loader-ring r2"></div>
+      <div class="loader-initials">RD</div>
+    </div>
+    <div class="loader-text">
+      <span class="loader-name">RAVEESHA DENUWAN</span>
+      <span class="loader-sub">// initializing portfolio</span>
+    </div>
+    <div class="loader-bar-wrap">
+      <div class="loader-bar-track"><div class="loader-bar-fill"></div></div>
+      <span id="loaderPct" class="loader-pct">0%</span>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">[</span>RD<span class="logo-bracket">]</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about"><span class="nav-num">01.</span>About</a></li>
+        <li><a href="#skills"><span class="nav-num">02.</span>Skills</a></li>
+        <li><a href="#projects"><span class="nav-num">03.</span>Projects</a></li>
+        <li><a href="#education"><span class="nav-num">04.</span>Education</a></li>
+        <li><a href="#contact"><span class="nav-num">05.</span>Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="cv.pdf" download class="nav-cv">Resume ↓</a>
+        <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-icon">◐</span>
+        </button>
+        <button class="hamburger" id="menuBtn" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <div class="hero-status">
+        <span class="status-dot"></span>
+        <span>Available for opportunities</span>
+        <span class="status-divider">·</span>
+        <span>Sri Lanka</span>
+      </div>
+
+      <div class="hero-heading">
+        <div class="hero-title-line">
+          <span class="hero-line-label">// name</span>
+          <h1 class="hero-name">
+            <span class="name-first">Raveesha</span>
+            <span class="name-last">Denuwan</span>
+          </h1>
+        </div>
+        <div class="hero-role-line">
+          <span class="role-prefix">&gt;_</span>
+          <span id="typingText" class="typed"></span>
+          <span class="cursor">█</span>
+        </div>
+      </div>
+
+      <p class="hero-bio">
+        HND Computing student at <strong>CINEC Campus</strong>, specialising in Cyber Security.
+        I build secure systems, explore networks, and write code that solves real-world problems.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">
+          <span>View Projects</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="cv.pdf" download class="btn-ghost">Download CV</a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://github.com/raveeshadenuwan" target="_blank" class="social-link" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/raveesha-denuwan-820953242" target="_blank" class="social-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:raveeshadenuwan@gmail.com" class="social-link" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="photo-container">
+        <div class="photo-border-anim"></div>
+        <div class="photo-inner">
+          <img src="yourphoto.jpg" alt="Raveesha Denuwan" class="hero-photo" />
+          <div class="photo-overlay-tag">
+            <span class="tag-icon">🔐</span>
+            <div>
+              <strong>Cyber Security</strong>
+              <span>Specialisation</span>
+            </div>
+          </div>
+        </div>
+        <div class="photo-corner tl"></div>
+        <div class="photo-corner tr"></div>
+        <div class="photo-corner bl"></div>
+        <div class="photo-corner br"></div>
+      </div>
+
+      <div class="floating-chips">
+        <span class="chip c1">HTML · CSS · JS</span>
+        <span class="chip c2">PHP · MySQL</span>
+        <span class="chip c3">Networking</span>
+        <span class="chip c4">Ethical Hacking</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat"><strong>6+</strong><span>Projects Built</span></div>
+      <div class="stat-sep"></div>
+      <div class="stat"><strong>8+</strong><span>Technologies</span></div>
+      <div class="stat-sep"></div>
+      <div class="stat"><strong>HND</strong><span>Computing @ CINEC</span></div>
+      <div class="stat-sep"></div>
+      <div class="stat"><strong>2×</strong><span>PSB University Diplomas</span></div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="sec-label">
+        <span class="sec-num">01</span>
+        <span class="sec-line"></span>
+        <h2>About</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm <strong>Raveesha Denuwan</strong> — a Computing student at CINEC Campus, Sri Lanka, pursuing a Pearson BTEC HND with a focus on Cyber Security.</p>
+          <p>I've also completed a <strong>Diploma in Cyber Security & Ethical Hacking</strong> at PSB University (Cambodia), alongside diplomas in HRM and Business Management.</p>
+          <p>I'm passionate about understanding, breaking, and securing systems. I enjoy building web applications, designing databases, and developing clean backend solutions.</p>
+          <p>My goal is to become a cybersecurity professional and grow through real-world, hands-on projects — aiming for certifications like <strong>Security+</strong> and <strong>CEH</strong>.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-card-header">
+            <span class="card-badge">// quick_info.json</span>
+          </div>
+          <ul class="info-list">
+            <li><span class="info-key">name</span><span class="info-val">"Raveesha Denuwan"</span></li>
+            <li><span class="info-key">phone</span><span class="info-val">"0714 082 950"</span></li>
+            <li><span class="info-key">study</span><span class="info-val">"HND Computing"</span></li>
+            <li><span class="info-key">focus</span><span class="info-val">"Cyber Security"</span></li>
+            <li><span class="info-key">campus</span><span class="info-val">"CINEC, Sri Lanka"</span></li>
+            <li><span class="info-key">status</span><span class="info-val open">"Open to Work" <span class="open-dot"></span></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-dark" id="skills">
+    <div class="wrap">
+      <div class="sec-label">
+        <span class="sec-num">02</span>
+        <span class="sec-line"></span>
+        <h2>Skills</h2>
+      </div>
+      <p class="sec-sub">Technologies I've been learning and using in real projects.</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="sk-top">
+            <div class="sk-icon">🌐</div>
+            <div class="sk-pct">88%</div>
+          </div>
+          <h4>Front-End Development</h4>
+          <p>HTML, CSS, JavaScript — building clean, responsive interfaces from scratch.</p>
+          <div class="sk-bar-wrap"><div class="sk-bar" data-pct="88"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="sk-top">
+            <div class="sk-icon">⚙️</div>
+            <div class="sk-pct">79%</div>
+          </div>
+          <h4>PHP & MySQL</h4>
+          <p>Server-side logic, database design, CRUD systems, and user authentication.</p>
+          <div class="sk-bar-wrap"><div class="sk-bar" data-pct="79"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="sk-top">
+            <div class="sk-icon">🛡</div>
+            <div class="sk-pct">72%</div>
+          </div>
+          <h4>Cyber Security</h4>
+          <p>Ethical hacking concepts, vulnerability assessment, network security principles.</p>
+          <div class="sk-bar-wrap"><div class="sk-bar" data-pct="72"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="sk-top">
+            <div class="sk-icon">🌐</div>
+            <div class="sk-pct">75%</div>
+          </div>
+          <h4>Networking</h4>
+          <p>TCP/IP, subnetting, routing protocols, Cisco Packet Tracer, network troubleshooting.</p>
+          <div class="sk-bar-wrap"><div class="sk-bar" data-pct="75"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="sk-top">
+            <div class="sk-icon">🗄</div>
+            <div class="sk-pct">80%</div>
+          </div>
+          <h4>Database Design</h4>
+          <p>MySQL design, ER diagrams, normalisation, query optimisation, phpMyAdmin.</p>
+          <div class="sk-bar-wrap"><div class="sk-bar" data-pct="80"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="sk-top">
+            <div class="sk-icon">🐍</div>
+            <div class="sk-pct">60%</div>
+          </div>
+          <h4>Python</h4>
+          <p>Scripting, automation, basic data handling, and security-oriented scripts.</p>
+          <div class="sk-bar-wrap"><div class="sk-bar" data-pct="60"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="sec-label">
+        <span class="sec-num">03</span>
+        <span class="sec-line"></span>
+        <h2>Projects</h2>
+      </div>
+      <p class="sec-sub">A selection of what I've built and shipped.</p>
+
+      <div class="filter-row">
+        <button class="filt active" data-filter="all">All</button>
+        <button class="filt" data-filter="security">Security</button>
+        <button class="filt" data-filter="web">Web</button>
+        <button class="filt" data-filter="system">System</button>
+      </div>
+
+      <div class="projects-grid">
+        <div class="proj" data-cat="security web">
+          <div class="proj-img">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=70" alt="Secure Login System" />
+            <div class="proj-overlay">
+              <div class="proj-links">
+                <a href="#" class="pl-demo">Live Demo →</a>
+                <a href="#" class="pl-code">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags"><span>PHP</span><span>Security</span><span>MySQL</span></div>
+            <h3>Secure Login System</h3>
+            <p>Full authentication system with bcrypt hashing, session management, brute-force protection, and CSRF tokens.</p>
+          </div>
+        </div>
+
+        <div class="proj" data-cat="web system">
+          <div class="proj-img">
+            <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=70" alt="Library Management" />
+            <div class="proj-overlay">
+              <div class="proj-links">
+                <a href="#" class="pl-demo">Live Demo →</a>
+                <a href="#" class="pl-code">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags"><span>PHP</span><span>MySQL</span><span>Web</span></div>
+            <h3>Library Management System</h3>
+            <p>Full CRUD system for managing books, members, and borrowing records with admin dashboard.</p>
+          </div>
+        </div>
+
+        <div class="proj" data-cat="security">
+          <div class="proj-img">
+            <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&q=70" alt="Network Scanner" />
+            <div class="proj-overlay">
+              <div class="proj-links">
+                <a href="#" class="pl-demo">Live Demo →</a>
+                <a href="#" class="pl-code">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags"><span>Python</span><span>Security</span></div>
+            <h3>Network Port Scanner</h3>
+            <p>Python-based network scanning tool to identify open ports and services on a target host.</p>
+          </div>
+        </div>
+
+        <div class="proj" data-cat="web">
+          <div class="proj-img">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=70" alt="Sales Dashboard" />
+            <div class="proj-overlay">
+              <div class="proj-links">
+                <a href="#" class="pl-demo">Live Demo →</a>
+                <a href="#" class="pl-code">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags"><span>PHP</span><span>Chart.js</span><span>MySQL</span></div>
+            <h3>Sales Reporting Dashboard</h3>
+            <p>Dynamic dashboard with Chart.js visualisations, filters, and exportable reports for sales data.</p>
+          </div>
+        </div>
+
+        <div class="proj" data-cat="security web">
+          <div class="proj-img">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=70" alt="Password Manager" />
+            <div class="proj-overlay">
+              <div class="proj-links">
+                <a href="#" class="pl-demo">Live Demo →</a>
+                <a href="#" class="pl-code">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags"><span>PHP</span><span>Security</span><span>AES</span></div>
+            <h3>Encrypted Password Manager</h3>
+            <p>Web-based password vault using AES-256 encryption for secure credential storage.</p>
+          </div>
+        </div>
+
+        <div class="proj" data-cat="web system">
+          <div class="proj-img">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=70" alt="IT Ticket System" />
+            <div class="proj-overlay">
+              <div class="proj-links">
+                <a href="#" class="pl-demo">Live Demo →</a>
+                <a href="#" class="pl-code">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags"><span>PHP</span><span>MySQL</span><span>Helpdesk</span></div>
+            <h3>IT Helpdesk Ticket System</h3>
+            <p>Support system where users raise IT issues and admins track, assign, and close tickets.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-dark" id="education">
+    <div class="wrap">
+      <div class="sec-label">
+        <span class="sec-num">04</span>
+        <span class="sec-line"></span>
+        <h2>Education</h2>
+      </div>
+
+      <div class="edu-timeline">
+
+        <div class="edu-item current">
+          <div class="edu-marker">
+            <div class="edu-dot"></div>
+            <div class="edu-connector"></div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-card-top">
+              <span class="edu-badge current-badge">In Progress</span>
+              <span class="edu-year">2023 – Present</span>
+            </div>
+            <h3>Pearson BTEC HND in Computing</h3>
+            <p class="edu-spec">Cyber Security Specialisation</p>
+            <p class="edu-place">CINEC Campus · Sri Lanka</p>
+            <p class="edu-desc">Studying cyber security, networking, programming, and database systems with hands-on project development.</p>
+            <div class="edu-tags">
+              <span>Cyber Security</span><span>Networking</span><span>Databases</span><span>Programming</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-marker">
+            <div class="edu-dot"></div>
+            <div class="edu-connector"></div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-card-top">
+              <span class="edu-badge done-badge">Completed</span>
+            </div>
+            <h3>Diploma in Cyber Security & Ethical Hacking</h3>
+            <p class="edu-place">PSB University · Cambodia</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-marker">
+            <div class="edu-dot"></div>
+            <div class="edu-connector"></div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-card-top">
+              <span class="edu-badge done-badge">Completed</span>
+            </div>
+            <h3>Diploma in Human Resource Management</h3>
+            <p class="edu-place">PSB University · Cambodia</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-marker">
+            <div class="edu-dot"></div>
+            <div class="edu-connector"></div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-card-top">
+              <span class="edu-badge done-badge">Completed</span>
+            </div>
+            <h3>Diploma in Business Management</h3>
+            <p class="edu-place">SEG Awards</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-marker">
+            <div class="edu-dot"></div>
+            <div class="edu-connector"></div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-card-top">
+              <span class="edu-badge done-badge">Completed</span>
+            </div>
+            <h3>Diploma in Information & Communication Technology</h3>
+            <p class="edu-place">SEG Awards</p>
+          </div>
+        </div>
+
+        <div class="edu-item goal-item">
+          <div class="edu-marker">
+            <div class="edu-dot goal-dot"></div>
+          </div>
+          <div class="edu-card goal-card">
+            <div class="edu-card-top">
+              <span class="edu-badge goal-badge">Goal</span>
+            </div>
+            <h3>Cyber Security Professional</h3>
+            <p class="edu-desc">Planning to achieve certifications like Security+ and CEH, and work in security operations or penetration testing.</p>
+            <div class="edu-tags">
+              <span>CompTIA Security+</span><span>CEH</span><span>SOC Analyst</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="sec-label">
+        <span class="sec-num">05</span>
+        <span class="sec-line"></span>
+        <h2>Contact</h2>
+      </div>
+      <p class="sec-sub">Open to opportunities, collaborations, or just a chat about tech.</p>
+
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="contact-intro">Whether you have a project idea, a question, or you're looking for someone to join your team — I'd love to hear from you.</p>
+
+          <div class="contact-items">
+            <a href="mailto:raveeshadenuwan@gmail.com" class="contact-item">
+              <div class="ci-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <span>raveeshadenuwan@gmail.com</span>
+              </div>
+              <svg class="ci-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <a href="tel:0714082950" class="contact-item">
+              <div class="ci-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.01 2.24 2 2 0 012 .05h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.09 6.09l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div>
+                <strong>Phone</strong>
+                <span>0714 082 950</span>
+              </div>
+              <svg class="ci-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <a href="https://github.com/raveeshadenuwan" target="_blank" class="contact-item">
+              <div class="ci-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </div>
+              <div>
+                <strong>GitHub</strong>
+                <span>github.com/raveeshadenuwan</span>
+              </div>
+              <svg class="ci-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <a href="https://www.linkedin.com/in/raveesha-denuwan-820953242" target="_blank" class="contact-item">
+              <div class="ci-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </div>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>linkedin.com/in/raveesha-denuwan</span>
+              </div>
+              <svg class="ci-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="https://formspree.io/f/mqegarew" method="POST">
+          <h3 class="form-title">Send a Message</h3>
+          <div class="form-row">
+            <div class="fg">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="name" placeholder="Your name" required />
+            </div>
+            <div class="fg">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="fg">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" name="subject" placeholder="What's it about?" required />
+          </div>
+          <div class="fg">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" name="message" placeholder="Tell me more..." required></textarea>
+          </div>
+          <input type="hidden" name="_subject" value="New Portfolio Message" />
+          <button type="submit" class="form-submit">
+            <span>Send Message</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="footer-left">
+        <span class="footer-logo">[RD]</span>
+        <p>Raveesha Denuwan — Cyber Security Portfolio</p>
+      </div>
+      <div class="footer-right">
+        <p>Built with HTML, CSS & JS · Hosted on GitHub Pages</p>
+        <a href="#home" class="back-top">↑ Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
